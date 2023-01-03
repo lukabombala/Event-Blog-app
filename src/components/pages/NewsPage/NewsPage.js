@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {MDBContainer } from "mdbreact";
-import LargeNewsCard from "../../LargeNewsCard.js";
+{/*import LargeNewsCard from "../../LargeNewsCard.js";*/}
 
 class NewsPage extends Component {
     render() {
@@ -26,12 +26,6 @@ class NewsPage extends Component {
               <hr className="my-5"/>
                <MDBContainer style={{ marginTop: '20px' }}
                >
-              <LargeNewsCard title="Finał zbliża się wielkimi krokami..." 
-                                   image="https://www.rutherford.school.nz/wp-content/uploads/2018/05/football.jpg"
-                                   icon="exclamation"
-                                   category="Ważne informacje"
-                                   dateadd="25/08/2020"
-                                   />
               </MDBContainer>
               </MDBContainer>
             </React.Fragment>
