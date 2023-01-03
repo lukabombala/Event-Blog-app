@@ -27,7 +27,7 @@ class ContactPage extends Component {
                >
             
             <div style={{ minWidth: '20rem' }}>
-            <h6 className='bg-light p-2 border-top border-bottom'>Główna koordynatorka zlotu</h6>
+            <h6 className='bg-light p-2 border-top border-bottom'>Komendantka zlotu</h6>
             <MDBListGroup light className='mb-4'>
                 <MDBListGroupItem>phm. Magdalena Szkudlarska HR <br/> 
                 <MDBIcon fas icon='phone' /> 664-880-476</MDBListGroupItem>
