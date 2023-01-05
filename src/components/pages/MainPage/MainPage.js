@@ -45,10 +45,10 @@ class MainPage extends Component {
                   <h6 className='bg-light p-2 border-top border-bottom'>PIĄTEK</h6>
                   <MDBTypography listUnStyled className='mb-0'>
                     <li className='mb-1'>19:00 &nbsp;
-                      <MDBIcon icon='arrow-right' className='me-2 text-info' />mapa 2d jednostek- do dopracowania i ogarnięcia; 
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />przedstaw nam swoją jednostkę - tworzenie mapy chorągwi
                     </li>
-                    <li className='mb-1'>19:00 &nbsp;
-                      <MDBIcon icon='arrow-right' className='me-2 text-info' />start filmu
+                    <li className='mb-1'>19:30 &nbsp;
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />gra "planszowa" po Dolnym Śląsku
                     </li>
               
                 </MDBTypography>
@@ -56,10 +56,10 @@ class MainPage extends Component {
                   <h6 className='bg-light p-2 border-top border-bottom'>SOBOTA</h6>
                   <MDBTypography listUnStyled className='mb-0'>
                     <li className='mb-1'>&nbsp;&nbsp;8:00 &nbsp;
-                      <MDBIcon icon='arrow-right' className='me-2 text-info' />pobudka + śniadanie w jednostkach
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />pobudka (wg potrzeb może być też wcześniej) + śniadanie w jednostkach
                     </li>
                     <li className='mb-1'>&nbsp;&nbsp;9:30 &nbsp;
-                      <MDBIcon icon='arrow-right' className='me-2 text-info' />start organizacyjny + rozdanie II śniadania
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />spotkanie z organizatorami gry w celu wytłumaczenia zasad
                     </li>
                     <li className='mb-1'>10:00 &nbsp;
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />start gry
@@ -68,34 +68,43 @@ class MainPage extends Component {
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />obiad
                     </li>
                     <li className='mb-1'>17:00 &nbsp;
-                      <MDBIcon icon='arrow-right' className='me-2 text-info' />obchody - goście i tort
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />przywitanie gości, przedstawienie ich oraz tort
                     </li>
                     <li className='mb-1'>17:30 &nbsp;
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />ognisko
                     </li>
-                    <li className='mb-1'>19:30 &nbsp;
+                    <li className='mb-1'>19:00 &nbsp;
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />Msza św.
+                    </li>
+                    <li className='mb-1'>20:00 &nbsp;
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />kolacja
                     </li>
                     <li className='mb-1'>20:30 &nbsp;
-                      <MDBIcon icon='arrow-right' className='me-2 text-info' />czas na rozmowy (mail)
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />czas dla jednostek oraz na "spotkanie z historią" w kawiarence
                     </li>
                     <li className='mb-1'>22:00 &nbsp;
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />cisza nocna
                     </li>
-                    <li className='mb-1'>22:00 &nbsp;
+                    <li className='mb-1'>22:00+ &nbsp;
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />czas dla drużynowych i instruktorek (kawiarenka)
                     </li>
                 </MDBTypography>
                 <br/>
                   <h6 className='bg-light p-2 border-top border-bottom'>NIEDZIELA</h6>
                   <MDBTypography listUnStyled className='mb-0'>
-                    <li className='mb-1'>
-                      <MDBIcon icon='arrow-right' className='me-2 text-info' />msza św.
+                    <li className='mb-1'>&nbsp;&nbsp;8:00 &nbsp;
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />pobudka (wg potrzeb może być też wcześniej)
                     </li>
-                    <li className='mb-1'>
+                    <li className='mb-1'>&nbsp;&nbsp;8:30 &nbsp;
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />śniadanie
+                    </li>
+                    <li className='mb-1'>&nbsp;&nbsp;9:30 &nbsp;
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />apel
                     </li>
-                    <li className='mb-1'>
+                    <li className='mb-1'>10:00 &nbsp;
+                      <MDBIcon icon='arrow-right' className='me-2 text-info' />czas na pakowanie i sprzątanie
+                    </li>
+                    <li className='mb-1'>11:00 &nbsp;
                       <MDBIcon icon='arrow-right' className='me-2 text-info' />zakończenie zlotu
                     </li>
                     </MDBTypography>

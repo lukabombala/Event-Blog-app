@@ -26,6 +26,7 @@ class NewsPage extends Component {
               <hr className="my-5"/>
                <MDBContainer style={{ marginTop: '20px' }}
                >
+            <p>Na ten moment brak aktualności...</p>
               </MDBContainer>
               </MDBContainer>
             </React.Fragment>
