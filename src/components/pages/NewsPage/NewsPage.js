@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import {MDBContainer } from "mdbreact";
-{/*import LargeNewsCard from "../../LargeNewsCard.js";*/}
+import {MDBContainer , MDBCol, MDBRow} from "mdbreact";
+import FixedNewsCard from "../../FixedNewsCard.js";
 
 class NewsPage extends Component {
     render() {
@@ -23,11 +23,48 @@ class NewsPage extends Component {
                     </div>
                 </div>
                 </header>
+              
+            <React.Fragment>
+              <MDBContainer>
+                
               <hr className="my-5"/>
                <MDBContainer style={{ marginTop: '20px' }}
                >
-            <p>Na ten moment brak aktualności...</p>
+                <MDBRow>
+                  <MDBCol lg="6" md="12">
+              
+                    <FixedNewsCard title="Początek zlotu już niebawem!" 
+                                   image="https://www.tropiciele.net.pl/wp-content/uploads/ngg_featured/mg7_8400.jpg" 
+                                   category="Ważne informacje"
+                                   icon="exclamation"
+                                   dateadd="4/01/2022"
+                                   text=""
+                                   />
+
+                  </MDBCol>
+                  <MDBCol lg="6" md="12">
+
+                    
+
+                  </MDBCol>
+                </MDBRow>
+                <MDBRow>
+                  <MDBCol lg="6" md="12">
+
+                    
+
+                  </MDBCol>
+                  <MDBCol lg="6" md="12">
+
+                    
+
+                  </MDBCol>
+                </MDBRow>
               </MDBContainer>
+              
+              </MDBContainer>
+            </React.Fragment>
+              
               </MDBContainer>
             </React.Fragment>
         );
